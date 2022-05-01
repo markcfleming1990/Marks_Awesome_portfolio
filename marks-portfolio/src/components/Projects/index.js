@@ -6,28 +6,27 @@ const ProjectList = ({ category }) => {
   const [currentProject, setCurrentProject] = useState();
 
   const [projects] = useState([
+    
     {
       name: 'Mystery at Bulter Station',
+      category:'project',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+        'Exciting Dungeon Crawler where you have to figureout who the Mysterious alien is on the station',
+      repo: 'link'
+    },
+    
+    {
+      name: 'Just Tech News',
+      category: 'project',
+      description:
+        'Tech based forum that allows users to talk about their favorite aspects of tech',
       repo: 'link'
     },
     {
-      name: 'Tiny Note',
+      name: 'Budget Tracker',
+      category: 'project',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      repo: 'link'
-    },
-    {
-      name: 'Oh Snap!',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      repo: 'link'
-    },
-    {
-      name: 'Readme Generator',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+        'Application that allows users to track their budgets either at home or on the go, even offline!',
       repo: 'link'
     }
   ]);
