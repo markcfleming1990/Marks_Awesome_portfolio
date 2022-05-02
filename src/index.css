@@ -290,3 +290,13 @@ a {
   color: var(--secondary);
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  font-size: 40px;
+  color: var(--secondary);
+  margin: 20px;
+}
