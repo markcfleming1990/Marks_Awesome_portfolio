@@ -1,66 +1,89 @@
-import React, { useState } from 'react';
+import React from "react";
+import { useRef } from "react";
+import { Container, Typography, TextField, Button } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+import { TextDecrypt } from "../content/TextDecrypt";
+import Swal from 'sweetalert2';
 
-import { validateEmail } from '../../utils/helpers';
+import emailjs from '@emailjs/browser';
 
-function ContactForm() {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+import './Contact.css'
 
-  const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
+export const Contact = () => {
+  const classes = useStyles();
+  const greetings = "Say hello.";
 
-  const handleSubmit = (e) => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    if (!errorMessage) {
-      console.log('Submit Form', formState);
-    }
+
+    emailjs.sendForm('service_8bezxog', 'template_jmsk313', form.current, 'knwNTK4YU4K30HYMd')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Your work has been saved',
+      showConfirmButton: false,
+      timer: 1500
+    })
+    e.target.reset()
   };
 
-  const handleChange = (e) => {
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-      if (!isValid) {
-        setErrorMessage('Your email is invalid.');
-      } else {
-        setErrorMessage('');
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage('');
-      }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log('Handle Form', formState);
-    }
-  };
 
-  return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
+
+    return (
+      <section id="contact">
+        <Container component="main" className={classes.main} maxWidth="md">
+          <div className="contact">
+            <div className="_form_wrapper">
+              <form ref={form} onSubmit={sendEmail} className={classes.form}>
+                <TextField
+                  id="outlined-name-input"
+                  label="Name"
+                  type="text"
+                  size="small"
+                  variant="filled"
+                  name="name"
+                  className={classes.formfield}
+                />
+                <TextField
+                  id="outlined-password-input"
+                  label="Email"
+                  type="email"
+                  size="small"
+                  variant="filled"
+                  name="email"
+                  className={classes.formfield}
+                />
+                <TextField
+                  id="outlined-password-input"
+                  label="Message"
+                  type="textarea"
+                  size="small"
+                  multiline
+                  minRows={5}
+                  variant="filled"
+                  name="message"
+                  className={classes.formfield}
+                />
+                <button type="submit" value="Send" className="submit-btn">
+                <i className="fas fa-terminal"></i>
+                  <Typography component='span'> Send Message</Typography>
+                </button>
+              </form>
+            </div>
+            <h1 className="contact_msg">
+              <TextDecrypt text={greetings}/>
+            </h1>
           </div>
-        )}
-        <button data-testid="button" type="submit">Submit</button>
-      </form>
-    </section>
+        </Container>
+      </section>
   );
-}
+};
 
 export default ContactForm;
