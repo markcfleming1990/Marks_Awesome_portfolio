@@ -7,11 +7,11 @@ import { FirstName, LastName } from "../../utils/getName";
 
 import './About.css';
 
-// import profile from '../../assets/profile.png';
+import profile from '../../assets/photos/Mark-photo.jpg';
 
 const useStyles = makeStyles((theme) => ({
   main: {
-    maxWidth: '100vw',
+    maxWidth: '90vw',
     marginTop: '3em',
     marginBottom: "auto",
   },
@@ -28,7 +28,7 @@ export const About = () => {
         <div className="about">
           <div className="_img"
             style={{ 
-              // background: "url(" + profile + ")",
+              background: "url(" + profile + ")",
               backgroundSize: 'contain',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
