@@ -28,8 +28,8 @@
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "Mark Fleming",
+                "url": "https://www.linkedin.com/in/mark-fleming-827a34142/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
@@ -49,39 +49,75 @@
     },
     "work": [
         {
-            "company": "Company",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "highlights": ["Started the company"]
+            "company": "ViewRail",
+            "position": "Production",
+            "website": "https://www.viewrail.com/",
+            "startDate": "5/23/2022",
+            "endDate": "Current",
+            "summary": "Worked with Plant Manager to maintain production quotas"
+            
+        },
+        {
+            "company": "Dometic",
+            "position": "Production",
+            "website": "https://www.dometic.com/",
+            "startDate": "11/10/2021",
+            "endDate": "5/20/2022",
+            "summary": "Worked with Plant Manager to maintain production quotas"
+            
+        },
+        {
+            "company": "South Bend School Corp",
+            "position": "Application Specialist",
+            "website": "https://www.sb.school.com/",
+            "startDate": "5/02/2016",
+            "endDate": "10/03/2017",
+            "summary": "Helped develop application organization and process for Government Free and Reduced lunch Program. Worked with IT services to maintain SQL databases of applicants and student application status"
+            
+        },
+        {
+            "company": "Gates Chevy World",
+            "position": "Internet Sales Manager",
+            "website": "https://www.sb.school.com/",
+            "startDate": "10/31/2017",
+            "endDate": "11/01/2018",
+            "summary": "Worked with Sales Mangers to drive online traffic into the dealership to convert to Sales. Helped maintain website look by ensuring pictures and prices are displayed accurately"
+            
         }
+
+
+        
     ],
     "education": [
         {
-            "institution": "University",
-            "area": "Software Development",
-            "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "Butler University",
+            "area": "Full Stack Web Developer",
+            "studyType": "Certificate",
+            "startDate": "11/24/2021",
+            "endDate": "5/11/2022",
+            "courses": ["HTML", "CSS", "JavaScript","SQL", "MongoDB", "MERN", "React"]
         }
     ],
 
     "skills": [
         {
             "name": "Web Development",
-            "level": "Master",
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["HTML", "CSS", "Javascript", "SQL", "MongoDB", "MERN", "React"]
+        },
+        {
+            "name": "Sales Professional",
+            "keywords": ["Negotiation", "Processes", "Problem Solving"]
         }
     ],
  
     "interests": [
         {
-            "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
+            "name": "History",
+            "keywords": ["US History", "Military History", "Tech History"]
+        },
+        {
+            "name": "Out Doors",
+            "keywords": ["Camping", "Hiking", "Paintball"]
         }
     ],
     "references": [

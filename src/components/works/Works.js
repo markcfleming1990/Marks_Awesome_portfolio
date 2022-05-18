@@ -8,11 +8,11 @@ import { TextDecrypt } from "../content/TextDecrypt";
 import './Works.css';
 
 // Import ../../assets/recentprojects/
-import Portfolio from '../../assets/recentprojects/react-portfolio.png';
-import Veritru from '../../assets/recentprojects/veritru.png';
-import Lofo from '../../assets/recentprojects/lofo.png';
-import Startup from '../../assets/recentprojects/startup.png';
-import Lacalle from '../../assets/recentprojects/lacalle.png';
+import Portfolio from '../../assets/recentprojects/react_portfolio.png';
+// import Veritru from '../../assets/recentprojects/veritru.png';
+import TinyNote from '../../assets/recentprojects/tiny_note.png';
+import Workout from '../../assets/recentprojects/workout_buddy.png';
+import Mystery from '../../assets/recentprojects/buter_station.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -34,39 +34,36 @@ export const Works = () => {
       alter: 'React Portfolio',
       image: `${Portfolio}`,
     },
-    { 
-      id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
-      image: `${Veritru}`,
-    },
+    // { 
+    //   id: 2,
+    //   title: 'VeriTru Project', 
+    //   description: `An advocacy project website built using
+    //   MEAN stack with fact-checking tool to promote actions against
+    //   fake news.`,
+    //   alter: 'VeriTru Project',
+    //   image: `${Veritru}`,
+    // },
     { 
       id: 3,
       title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
+      description: `A Website that allows users to organize their thoughts`,
       alter: 'LoFo Project',
-      image: `${Lofo}`,
+      image: `${TinyNote}`,
     },
     { 
       id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
+      title: 'Workout Buddy', 
+      description: `A website project that allows users to create workouts day by date and organize their gym time. Demonstrates use of 
+      the MERN stack as well as non relational Databases`,
       alter: 'Startup Project',
-      image: `${Startup}`,
+      image: `${Workout}`,
     },
     { 
       id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
+      title: 'Mystery at Butler Station', 
+      description: `A website using CanvasJS to create a dungeon explorer scroll game.`,
       alter: 'Startup Project',
-      image: `${Lacalle}`,
+      image: `${Mystery}`,
     },
   ]);
 
