@@ -1,0 +1,129 @@
+{
+    "basics": {
+        "name": "Mark Fleming",
+        "label": "Web Developer",
+        "email": "markcmtan@gmail.com",
+        "phone": "(574) 323-8728",
+        "picture": "mt.png",
+        "x_title": "Hello, I'm",
+        "job1": "Designer",
+        "job2": "Developer",
+        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
+        "summary": "based in Angeles, Philippines.",
+        "keywords": "",
+        "url": "",
+        "location": {
+            "address": "1603 S 13th street",
+            "postalCode": "46526",
+            "city": "Goshen Indiana",
+            "country": "USA"
+    
+        },
+        "profiles": [
+            {
+                "network": "Google",
+                "username": "markcfleming1990@gmail.com",
+                "url": "mailto:markcfleming1990@gmail.com",
+                "x_icon": "fab fa-google"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Mark Fleming",
+                "url": "https://www.linkedin.com/in/mark-fleming-827a34142/",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "markcfleming1990",
+                "url": "https://github.com/markcfleming1990",
+                "x_icon": "fab fa-github"
+            },
+
+            {
+                "network": "Discord",
+                "username": "Toby#5395",
+                "url": "https://discord.com",
+                "x_icon": "fab fa-discord"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "ViewRail",
+            "position": "Production",
+            "website": "https://www.viewrail.com/",
+            "startDate": "5/23/2022",
+            "endDate": "Current",
+            "summary": "Worked with Plant Manager to maintain production quotas"
+            
+        },
+        {
+            "company": "Dometic",
+            "position": "Production",
+            "website": "https://www.dometic.com/",
+            "startDate": "11/10/2021",
+            "endDate": "5/20/2022",
+            "summary": "Worked with Plant Manager to maintain production quotas"
+            
+        },
+        {
+            "company": "South Bend School Corp",
+            "position": "Application Specialist",
+            "website": "https://www.sb.school.com/",
+            "startDate": "5/02/2016",
+            "endDate": "10/03/2017",
+            "summary": "Helped develop application organization and process for Government Free and Reduced lunch Program. Worked with IT services to maintain SQL databases of applicants and student application status"
+            
+        },
+        {
+            "company": "Gates Chevy World",
+            "position": "Internet Sales Manager",
+            "website": "https://www.sb.school.com/",
+            "startDate": "10/31/2017",
+            "endDate": "11/01/2018",
+            "summary": "Worked with Sales Mangers to drive online traffic into the dealership to convert to Sales. Helped maintain website look by ensuring pictures and prices are displayed accurately"
+            
+        }
+
+
+        
+    ],
+    "education": [
+        {
+            "institution": "Butler University",
+            "area": "Full Stack Web Developer",
+            "studyType": "Certificate",
+            "startDate": "11/24/2021",
+            "endDate": "5/11/2022",
+            "courses": ["HTML", "CSS", "JavaScript","SQL", "MongoDB", "MERN", "React"]
+        }
+    ],
+
+    "skills": [
+        {
+            "name": "Web Development",
+            "keywords": ["HTML", "CSS", "Javascript", "SQL", "MongoDB", "MERN", "React"]
+        },
+        {
+            "name": "Sales Professional",
+            "keywords": ["Negotiation", "Processes", "Problem Solving"]
+        }
+    ],
+ 
+    "interests": [
+        {
+            "name": "History",
+            "keywords": ["US History", "Military History", "Tech History"]
+        },
+        {
+            "name": "Out Doors",
+            "keywords": ["Camping", "Hiking", "Paintball"]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference..."
+        }
+    ]
+}

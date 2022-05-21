@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Marks_Awesome_portfolio/static/css/main.5b76d9d7.css",
+    "main.js": "/Marks_Awesome_portfolio/static/js/main.9bde8953.js",
+    "static/js/333.ff23a92f.chunk.js": "/Marks_Awesome_portfolio/static/js/333.ff23a92f.chunk.js",
+    "static/media/buter_station.png": "/Marks_Awesome_portfolio/static/media/buter_station.b57b2bd568b9cae23e5d.png",
+    "static/media/workout_buddy.png": "/Marks_Awesome_portfolio/static/media/workout_buddy.37e5ed8fc58f66094e40.png",
+    "static/media/Mark-photo.jpg": "/Marks_Awesome_portfolio/static/media/Mark-photo.defb4188ada491155a6e.jpg",
+    "static/media/react_portfolio.png": "/Marks_Awesome_portfolio/static/media/react_portfolio.e38e774d2f00a417b8b5.png",
+    "static/media/tiny_note.png": "/Marks_Awesome_portfolio/static/media/tiny_note.3c933e62c1c223c7444a.png",
+    "static/media/marks_resume.pdf": "/Marks_Awesome_portfolio/static/media/marks_resume.9bdc4005cff6d3c5a486.pdf",
+    "index.html": "/Marks_Awesome_portfolio/index.html",
+    "main.5b76d9d7.css.map": "/Marks_Awesome_portfolio/static/css/main.5b76d9d7.css.map",
+    "main.9bde8953.js.map": "/Marks_Awesome_portfolio/static/js/main.9bde8953.js.map",
+    "333.ff23a92f.chunk.js.map": "/Marks_Awesome_portfolio/static/js/333.ff23a92f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b76d9d7.css",
+    "static/js/main.9bde8953.js"
+  ]
+}
