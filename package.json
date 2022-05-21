@@ -6,6 +6,9 @@
   "repository": "https://github.com/markcfleming1990/Marks_Awesome_Portfolio",
   "author": "Mark Fleming",
   "license": "MIT",
+  "engines":{
+    "node":"16.x"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@emotion/react": "^11.9.0",
