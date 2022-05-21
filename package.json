@@ -7,7 +7,7 @@
   "author": "Mark Fleming",
   "license": "MIT",
   "engines":{
-    "node":"16.x"
+    "node":"16.13.2"
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
