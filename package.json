@@ -34,7 +34,9 @@
     "build": "react-scripts build && react-snapshot",
     "start:dev": "webpack-dev-server",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "reactSnapshot": {
     "exclude": [
