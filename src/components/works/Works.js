@@ -7,7 +7,7 @@ import { TextDecrypt } from "../content/TextDecrypt";
 
 import './Works.css';
 
-// Import ../../assets/recentprojects/
+// Import ../../assets/recentprojects/;
 import Portfolio from '../../assets/recentprojects/react_portfolio.png';
 // import Veritru from '../../assets/recentprojects/veritru.png';
 import TinyNote from '../../assets/recentprojects/tiny_note.png';
@@ -32,6 +32,7 @@ export const Works = () => {
       with fancy 3D animations using Three.js for 
       the background element.`,
       alter: 'React Portfolio',
+      link: 'https://github.com/markcfleming1990/Marks_Awesome_portfolio',
       image: `${Portfolio}`,
     },
     // { 
@@ -45,9 +46,10 @@ export const Works = () => {
     // },
     { 
       id: 3,
-      title: 'LoFo Project', 
+      title: 'Tiny Note', 
       description: `A Website that allows users to organize their thoughts`,
-      alter: 'LoFo Project',
+      alter: 'Tiny Note',
+      link: 'https://gsd79.github.io/tiny-note/',
       image: `${TinyNote}`,
     },
     { 
@@ -56,6 +58,7 @@ export const Works = () => {
       description: `A website project that allows users to create workouts day by date and organize their gym time. Demonstrates use of 
       the MERN stack as well as non relational Databases`,
       alter: 'Startup Project',
+      link: 'https://fitness-trainer-buddy.herokuapp.com/',
       image: `${Workout}`,
     },
     { 
@@ -63,6 +66,7 @@ export const Works = () => {
       title: 'Mystery at Butler Station', 
       description: `A website using CanvasJS to create a dungeon explorer scroll game.`,
       alter: 'Startup Project',
+      link: 'https://mystery-of-butler-station.herokuapp.com/',
       image: `${Mystery}`,
     },
   ]);
